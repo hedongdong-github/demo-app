@@ -9,6 +9,7 @@
     </div>
 
     <p>hello wolld!</p>
+    <p>{{ msg }}</p>
   </div>
 </template>
 
@@ -17,7 +18,7 @@ export default {
   name: 'About',
   data() {
     return {
-      
+      msg: '123'
     }
   }
 }
